@@ -9,4 +9,4 @@ O sistema foi desenvolvido pelo seguinte grupo:
 - Cléofas Peres Santos
 - [Felipe Marchi](https://github.com/felipemarchi)
 - [Pedro Henrique](https://github.com/PedroBernini)
-- [Vinícius Abrantes Pereira](https://github.com/viniciusAbrantes)
+- [Vinícius Abrantes](https://github.com/viniciusAbrantes)
