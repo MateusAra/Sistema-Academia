@@ -6,7 +6,7 @@ O sistema contém UI construída com JavaFX e banco de dados hospedado na RDS na
 O sistema foi desenvolvido pelo seguinte grupo:
 - [Alfredo Albélis](https://github.com/AlfredoFilho)
 - [Brenda Alexsandra](https://github.com/brendajanuario)
-- Cléofas Peres
+- [Cléofas Peres](https://github.com/CleoPeres)
 - [Felipe Marchi](https://github.com/felipemarchi)
 - [Pedro Henrique](https://github.com/PedroBernini)
 - [Vinícius Abrantes](https://github.com/viniciusAbrantes)
