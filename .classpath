@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Academia Master/src"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/activation.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/fontawesomefx-8.9.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/jfoenix-8.0.7.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/scenebuilder-kit-8.5.0.jar"/>
+	<classpathentry kind="lib" path="Academia Master/bibliotecas/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/activation.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/fontawesomefx-8.9.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/jfoenix-8.0.7.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/lib/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="Academia Master/dist/SistemaAcademiaFXML.jar"/>
+	<classpathentry kind="output" path="Academia Master/build/classes"/>
+</classpath>

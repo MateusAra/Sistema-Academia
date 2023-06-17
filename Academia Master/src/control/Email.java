@@ -6,6 +6,8 @@ import javax.mail.*;
 import javax.mail.internet.*;
 import model.Cliente;
 import model.ClienteDAO;
+import model.ContentEmail;
+import utils.utilitis;
 
 public class Email {
     private static Session session;
@@ -30,25 +32,10 @@ public class Email {
     }
     
     public static void comunicarAniversariantes() {
-        String from = "comunicado.academia@gmail.com";
-        String assunto = "Parabéns ao nosso cliente e parceiro";
-        String conteudo = "Prezado(a) Cliente,\n" +
-                          "Fazer aniversário é um daqueles momentos da vida em que podemos repensar e agradecer pelo passado e planejar o futuro.\n\n" +
-                          "Neste dia especial na sua vida, ficamos extremamente satisfeitos em saber que estivemos presentes neste último ano fazendo uma parceria que acreditamos ter sido feliz e produtiva.\n\n" +
-                          "Esperamos que no próximo ano possamos juntos celebrar mais e mais conquistas. Desejamos que este novo ano de vida que se inicia abra belos caminhos para percorrer, e seja repleto de realizações, vitórias e muito sucesso.\n\n" +
-                          "Conte conosco para tudo aquilo em que pudermos colaborar, pois antes de tudo somos parceiros. Que a nova idade venha também acompanhada de muita saúde, paz e felicidades. Parabéns!\n\n" +
-                          "Atenciosamente,\n" +
-                          "Academia do Plínio";
         
-        Date date = new Date();
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        int mes = calendar.get(Calendar.MONTH) + 1;
-        int dia = calendar.get(Calendar.DAY_OF_MONTH);
-        String data = mes+"-"+dia;
-        
+        ContentEmail contentEmail = utilitis.GetContent(true);
         ClienteDAO cliente = ClienteDAO.getInstance();
-        List<Cliente> listaClientes = cliente.retrieveGeneric("SELECT * FROM consultarClientes WHERE dt_nasc like '%-" + data + "'");
+        List<Cliente> listaClientes = cliente.retrieveGeneric("SELECT * FROM consultarClientes WHERE dt_nasc like '%-" + contentEmail.data + "'");
         
         String[] to = new String[listaClientes.size()];        
         for (int i=0; i<listaClientes.size(); i++) {
@@ -56,13 +43,14 @@ public class Email {
         }
         
         if (to.length > 0) {
-            enviarEmail(from, to, assunto, conteudo, session);
+            enviarEmail(contentEmail.from, to, contentEmail.assunto, contentEmail.conteudo, session);
             System.out.println("Emails de aniversários enviados");
         } else
             System.out.println("Nenhum email de aniversário enviado");
     }
     
     public static void comunicarDevedores() {
+        
         Date date = new Date();        
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
@@ -70,11 +58,14 @@ public class Email {
         int ano = calendar.get(Calendar.YEAR);
         int mes = calendar.get(Calendar.MONTH) + 1;
         int dia = calendar.get(Calendar.DAY_OF_MONTH);
+
         String proxData = ano+"-"+mes+"-"+dia;
+
         calendar.add(Calendar.DATE, -4);
         ano = calendar.get(Calendar.YEAR);
         mes = calendar.get(Calendar.MONTH) + 1;
         dia = calendar.get(Calendar.DAY_OF_MONTH);
+
         String passData = ano+"-"+mes+"-"+dia;
         
         String from = "comunicado.academia@gmail.com";

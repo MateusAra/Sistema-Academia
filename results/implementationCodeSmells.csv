@@ -1,0 +1,391 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
+Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
+Sistema-Academia,control,Email,comunicarDevedores,Long Statement
+Sistema-Academia,control,Email,comunicarDevedores,Long Statement
+Sistema-Academia,control,Email,comunicarDevedores,Magic Number
+Sistema-Academia,control,Email,comunicarDevedores,Magic Number
+Sistema-Academia,control,Email,enviarEmail,Empty catch clause
+Sistema-Academia,control,Email,enviarEmail,Long Parameter List
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,Padronizador,padronizarData,Magic Number
+Sistema-Academia,control,SistemaAcademia,start,Magic Number
+Sistema-Academia,control,SistemaAcademia,start,Magic Number
+Sistema-Academia,control,SistemaAcademia,init,Empty catch clause
+Sistema-Academia,control,SistemaAcademia,init,Magic Number
+Sistema-Academia,control,SistemaAcademia,changeScreen,Complex Method
+Sistema-Academia,control,SistemaAcademia,changeScreen,Long Method
+Sistema-Academia,control,SistemaAcademia,changeScreen,Magic Number
+Sistema-Academia,control,SistemaAcademia,changeScreen,Magic Number
+Sistema-Academia,control,TelaAtualizarClienteController,initialize,Long Statement
+Sistema-Academia,control,TelaAtualizarClienteController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarClienteController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarClienteController,clickExcluir,Long Statement
+Sistema-Academia,control,TelaAtualizarFornecedorController,initialize,Long Statement
+Sistema-Academia,control,TelaAtualizarFornecedorController,clickExcluir,Long Statement
+Sistema-Academia,control,TelaAtualizarFornecedorController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarFornecedorController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarFuncionarioController,initialize,Long Statement
+Sistema-Academia,control,TelaAtualizarFuncionarioController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarFuncionarioController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarFuncionarioController,clickExcluir,Long Statement
+Sistema-Academia,control,TelaAtualizarPlanoController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaAtualizarProdutoController,initialize,Long Statement
+Sistema-Academia,control,TelaAtualizarProdutoController,clickExcluir,Long Statement
+Sistema-Academia,control,TelaAtualizarProdutoController,clickAtualizar,Long Statement
+Sistema-Academia,control,TelaCadastroClienteController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroClienteController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroFornecedorController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroFornecedorController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroFuncionarioController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroFuncionarioController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroPlanoController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroProdutoController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaCadastroVendaController,clickSalvar,Long Statement
+Sistema-Academia,control,TelaConsultaClienteController,initialize,Long Statement
+Sistema-Academia,control,TelaConsultaClienteController,initialize,Long Statement
+Sistema-Academia,control,TelaConsultaClienteController,initialize,Long Statement
+Sistema-Academia,control,TelaConsultaFuncionarioController,initialize,Long Statement
+Sistema-Academia,control,TelaPagamentoController,initialize,Long Statement
+Sistema-Academia,control,TelaPagamentoController,clickRealizarPagamento,Long Statement
+Sistema-Academia,control,TelaPagamentoController,calcularDiasRestantes,Empty catch clause
+Sistema-Academia,control,TelaRelatorioRecebimentoController,initialize,Long Statement
+Sistema-Academia,control,TelaRelatorioRecebimentoController,initialize,Long Statement
+Sistema-Academia,control,TelaRelatorioUltimoAcessoController,initialize,Long Statement
+Sistema-Academia,control,Validador,validCpf,Long Statement
+Sistema-Academia,control,Validador,validCnpj,Long Statement
+Sistema-Academia,control,Validador,validEmail,Long Statement
+Sistema-Academia,control,Validador,validPassword,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Complex Conditional
+Sistema-Academia,control,Validador,isValidCpf,Long Statement
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Complex Conditional
+Sistema-Academia,control,Validador,isValidCnpj,Complex Method
+Sistema-Academia,control,Validador,isValidCnpj,Long Statement
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCpf,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCnpj,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarData,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarPhone,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCell,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Visualizador,visualizarCep,Magic Number
+Sistema-Academia,control,Catraca,Catraca,Empty catch clause
+Sistema-Academia,control,Catraca,close,Empty catch clause
+Sistema-Academia,control,Catraca,verificaCatraca,Empty catch clause
+Sistema-Academia,control,Catraca,autorizaAcesso,Empty catch clause
+Sistema-Academia,control,Catraca,autorizaAcesso,Magic Number
+Sistema-Academia,model,CatracaDAO,getInstance,Empty catch clause
+Sistema-Academia,model,CatracaDAO,verificaExistenciaCartao,Empty catch clause
+Sistema-Academia,model,CatracaDAO,verificaExistenciaCartao,Empty catch clause
+Sistema-Academia,model,CatracaDAO,verificaExistenciaCartao,Empty catch clause
+Sistema-Academia,model,CatracaDAO,verificaExistenciaCartao,Long Statement
+Sistema-Academia,model,CatracaDAO,verificaExistenciaCartao,Long Statement
+Sistema-Academia,model,Cliente,Cliente,Long Parameter List
+Sistema-Academia,model,Cliente,getPorcentagemGorduraCorporalVisual,Long Identifier
+Sistema-Academia,model,Cliente,setPorcentagemGorduraCorporalVisual,Long Identifier
+Sistema-Academia,model,ClienteDAO,buildObject,Empty catch clause
+Sistema-Academia,model,ClienteDAO,buildObject,Long Statement
+Sistema-Academia,model,ClienteDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,ClienteDAO,cadastrar,Long Parameter List
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
+Sistema-Academia,model,ClienteDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,ClienteDAO,atualizar,Empty catch clause
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,atualizar,Magic Number
+Sistema-Academia,model,ClienteDAO,remover,Empty catch clause
+Sistema-Academia,model,ClienteDAO,pagar,Empty catch clause
+Sistema-Academia,model,DAO,terminar,Empty catch clause
+Sistema-Academia,model,Fornecedor,Fornecedor,Long Parameter List
+Sistema-Academia,model,FornecedorDAO,buildObject,Empty catch clause
+Sistema-Academia,model,FornecedorDAO,buildObject,Long Statement
+Sistema-Academia,model,FornecedorDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,FornecedorDAO,cadastrar,Long Parameter List
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,cadastrar,Magic Number
+Sistema-Academia,model,FornecedorDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,FornecedorDAO,atualizar,Empty catch clause
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,atualizar,Magic Number
+Sistema-Academia,model,FornecedorDAO,remover,Empty catch clause
+Sistema-Academia,model,Funcionario,Funcionario,Long Parameter List
+Sistema-Academia,model,FuncionarioDAO,buildObject,Empty catch clause
+Sistema-Academia,model,FuncionarioDAO,buildObject,Long Statement
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Long Parameter List
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,cadastrar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,FuncionarioDAO,atualizar,Empty catch clause
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,atualizar,Magic Number
+Sistema-Academia,model,FuncionarioDAO,remover,Empty catch clause
+Sistema-Academia,model,Gerente,Gerente,Long Parameter List
+Sistema-Academia,model,Gerente,Gerente,Long Statement
+Sistema-Academia,model,GerenteDAO,buildObject,Empty catch clause
+Sistema-Academia,model,GerenteDAO,buildObject,Long Statement
+Sistema-Academia,model,GerenteDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,GerenteDAO,cadastrar,Long Parameter List
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,cadastrar,Magic Number
+Sistema-Academia,model,GerenteDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,GerenteDAO,atualizar,Empty catch clause
+Sistema-Academia,model,GerenteDAO,atualizar,Long Statement
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,atualizar,Magic Number
+Sistema-Academia,model,GerenteDAO,remover,Empty catch clause
+Sistema-Academia,model,ItemCompra,ItemCompra,Long Parameter List
+Sistema-Academia,model,ItemPedidoDAO,buildObject,Empty catch clause
+Sistema-Academia,model,ItemPedidoDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,ItemPedidoDAO,cadastrar,Magic Number
+Sistema-Academia,model,ItemPedidoDAO,cadastrar,Magic Number
+Sistema-Academia,model,ItemPedidoDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,ItemPedidoDAO,atualizar,Empty catch clause
+Sistema-Academia,model,ItemPedidoDAO,atualizar,Magic Number
+Sistema-Academia,model,ItemPedidoDAO,atualizar,Magic Number
+Sistema-Academia,model,ItemPedidoDAO,remover,Empty catch clause
+Sistema-Academia,model,ItemPedidoDAO,remover,Magic Number
+Sistema-Academia,model,Pessoa,Pessoa,Long Parameter List
+Sistema-Academia,model,Plano,Plano,Long Parameter List
+Sistema-Academia,model,PlanoDAO,buildObject,Empty catch clause
+Sistema-Academia,model,PlanoDAO,buildObject,Long Statement
+Sistema-Academia,model,PlanoDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,PlanoDAO,cadastrar,Magic Number
+Sistema-Academia,model,PlanoDAO,cadastrar,Magic Number
+Sistema-Academia,model,PlanoDAO,cadastrar,Magic Number
+Sistema-Academia,model,PlanoDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,PlanoDAO,atualizar,Empty catch clause
+Sistema-Academia,model,PlanoDAO,atualizar,Magic Number
+Sistema-Academia,model,PlanoDAO,atualizar,Magic Number
+Sistema-Academia,model,PlanoDAO,atualizar,Magic Number
+Sistema-Academia,model,PlanoDAO,atualizar,Magic Number
+Sistema-Academia,model,PlanoDAO,remover,Empty catch clause
+Sistema-Academia,model,Produto,Produto,Long Parameter List
+Sistema-Academia,model,ProdutoDAO,buildObject,Empty catch clause
+Sistema-Academia,model,ProdutoDAO,buildObject,Long Statement
+Sistema-Academia,model,ProdutoDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,ProdutoDAO,cadastrar,Magic Number
+Sistema-Academia,model,ProdutoDAO,cadastrar,Magic Number
+Sistema-Academia,model,ProdutoDAO,cadastrar,Magic Number
+Sistema-Academia,model,ProdutoDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,ProdutoDAO,atualizar,Empty catch clause
+Sistema-Academia,model,ProdutoDAO,atualizar,Magic Number
+Sistema-Academia,model,ProdutoDAO,atualizar,Magic Number
+Sistema-Academia,model,ProdutoDAO,atualizar,Magic Number
+Sistema-Academia,model,ProdutoDAO,atualizar,Magic Number
+Sistema-Academia,model,ProdutoDAO,remover,Empty catch clause
+Sistema-Academia,model,Venda,Venda,Long Parameter List
+Sistema-Academia,model,VendaDAO,buildObject,Empty catch clause
+Sistema-Academia,model,VendaDAO,buildObject,Long Statement
+Sistema-Academia,model,VendaDAO,cadastrar,Empty catch clause
+Sistema-Academia,model,VendaDAO,retrieveGeneric,Empty catch clause
+Sistema-Academia,model,VendaDAO,atualizar,Empty catch clause
+Sistema-Academia,model,VendaDAO,atualizar,Magic Number
+Sistema-Academia,model,VendaDAO,atualizar,Magic Number
+Sistema-Academia,model,VendaDAO,remover,Empty catch clause
+Sistema-Academia,model,VendaDAO,getUltimoId,Empty catch clause
