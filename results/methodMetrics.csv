@@ -191,7 +191,10 @@ Sistema-Academia,control,Validador,validCard,12,2,3
 Sistema-Academia,control,Validador,validPassword,13,2,3
 Sistema-Academia,control,Validador,mostrarMensagem,10,2,3
 Sistema-Academia,control,Validador,isValidCpf,32,7,1
-Sistema-Academia,control,Validador,isValidCnpj,34,9,1
+Sistema-Academia,control,Validador,isInvalidCnpjDigits,3,1,1
+Sistema-Academia,control,Validador,calculateDigit,22,4,2
+Sistema-Academia,control,Validador,isInvalidCnpjFormat,3,1,1
+Sistema-Academia,control,Validador,isValidCnpj,13,2,1
 Sistema-Academia,control,Visualizador,visualizarPreco,6,1,1
 Sistema-Academia,control,Visualizador,visualizarRg,30,2,1
 Sistema-Academia,control,Visualizador,visualizarCpf,18,1,1
