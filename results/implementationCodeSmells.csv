@@ -1,6 +1,5 @@
 Project Name,Package Name,Type Name,Method Name,Code Smell
 Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
-Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Magic Number
@@ -60,38 +59,27 @@ Sistema-Academia,control,Validador,validCpf,Long Statement
 Sistema-Academia,control,Validador,validCnpj,Long Statement
 Sistema-Academia,control,Validador,validEmail,Long Statement
 Sistema-Academia,control,Validador,validPassword,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Complex Conditional
-Sistema-Academia,control,Validador,isValidCpf,Long Statement
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
-Sistema-Academia,control,Validador,isValidCpf,Magic Number
 Sistema-Academia,control,Validador,isInvalidCnpjDigits,Long Statement
-Sistema-Academia,control,Validador,calculateDigit,Magic Number
-Sistema-Academia,control,Validador,calculateDigit,Magic Number
-Sistema-Academia,control,Validador,calculateDigit,Magic Number
-Sistema-Academia,control,Validador,calculateDigit,Magic Number
-Sistema-Academia,control,Validador,calculateDigit,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCnpj,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCnpj,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCnpj,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCnpj,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCnpj,Magic Number
 Sistema-Academia,control,Validador,isInvalidCnpjFormat,Magic Number
 Sistema-Academia,control,Validador,isValidCnpj,Magic Number
 Sistema-Academia,control,Validador,isValidCnpj,Magic Number
 Sistema-Academia,control,Validador,isValidCnpj,Magic Number
 Sistema-Academia,control,Validador,isValidCnpj,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCpf,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCpf,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCpf,Magic Number
+Sistema-Academia,control,Validador,calculateDigitCpf,Magic Number
+Sistema-Academia,control,Validador,isInvalidCpfDigits,Long Statement
+Sistema-Academia,control,Validador,isInvalidCpfFormat,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
+Sistema-Academia,control,Validador,isValidCpf,Magic Number
 Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
 Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
 Sistema-Academia,control,Visualizador,visualizarRg,Magic Number
@@ -378,3 +366,4 @@ Sistema-Academia,model,VendaDAO,atualizar,Magic Number
 Sistema-Academia,model,VendaDAO,atualizar,Magic Number
 Sistema-Academia,model,VendaDAO,remover,Empty catch clause
 Sistema-Academia,model,VendaDAO,getUltimoId,Empty catch clause
+Sistema-Academia,utils,utilitis,GetContent,Long Statement

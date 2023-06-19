@@ -2,7 +2,7 @@ Project Name,Package Name,Type Name,MethodName,LOC,CC,PC
 Sistema-Academia,control,Email,abrirConexao,8,1,0
 Sistema-Academia,control,Email,getPasswordAuthentication,3,1,0
 Sistema-Academia,control,Email,configurarPropriedades,8,1,0
-Sistema-Academia,control,Email,comunicarAniversariantes,22,3,0
+Sistema-Academia,control,Email,comunicarAniversariantes,14,3,0
 Sistema-Academia,control,Email,comunicarDevedores,29,3,0
 Sistema-Academia,control,Email,enviarEmail,19,2,5
 Sistema-Academia,control,Padronizador,padronizarPreco,5,1,1
@@ -190,11 +190,14 @@ Sistema-Academia,control,Validador,validComboBox,13,2,3
 Sistema-Academia,control,Validador,validCard,12,2,3
 Sistema-Academia,control,Validador,validPassword,13,2,3
 Sistema-Academia,control,Validador,mostrarMensagem,10,2,3
-Sistema-Academia,control,Validador,isValidCpf,32,7,1
 Sistema-Academia,control,Validador,isInvalidCnpjDigits,3,1,1
-Sistema-Academia,control,Validador,calculateDigit,22,4,2
+Sistema-Academia,control,Validador,calculateDigitCnpj,22,4,2
 Sistema-Academia,control,Validador,isInvalidCnpjFormat,3,1,1
 Sistema-Academia,control,Validador,isValidCnpj,13,2,1
+Sistema-Academia,control,Validador,calculateDigitCpf,19,3,2
+Sistema-Academia,control,Validador,isInvalidCpfDigits,3,1,1
+Sistema-Academia,control,Validador,isInvalidCpfFormat,3,1,1
+Sistema-Academia,control,Validador,isValidCpf,13,2,1
 Sistema-Academia,control,Visualizador,visualizarPreco,6,1,1
 Sistema-Academia,control,Visualizador,visualizarRg,30,2,1
 Sistema-Academia,control,Visualizador,visualizarCpf,18,1,1
@@ -257,6 +260,8 @@ Sistema-Academia,model,ClienteDAO,retrieveLike,3,1,1
 Sistema-Academia,model,ClienteDAO,atualizar,36,2,1
 Sistema-Academia,model,ClienteDAO,remover,13,2,1
 Sistema-Academia,model,ClienteDAO,pagar,13,2,1
+Sistema-Academia,model,ContentEmail,ContentEmail,6,1,4
+Sistema-Academia,model,ContentEmail,ContentEmail,2,1,0
 Sistema-Academia,model,DAO,getConnection,4,2,0
 Sistema-Academia,model,DAO,getResultSet,5,1,1
 Sistema-Academia,model,DAO,executarQuery,5,1,1
@@ -476,3 +481,4 @@ Sistema-Academia,model,VendaDAO,retrieveByDate,3,1,1
 Sistema-Academia,model,VendaDAO,atualizar,17,2,3
 Sistema-Academia,model,VendaDAO,remover,13,2,1
 Sistema-Academia,model,VendaDAO,getUltimoId,17,2,0
+Sistema-Academia,utils,utilitis,GetContent,15,2,1
