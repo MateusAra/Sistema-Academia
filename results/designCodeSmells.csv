@@ -28,6 +28,7 @@ Sistema-Academia,model,Cliente,Broken Hierarchy
 Sistema-Academia,model,Cliente,Insufficient Modularization
 Sistema-Academia,model,ClienteDAO,Unutilized Abstraction
 Sistema-Academia,model,ClienteDAO,Broken Hierarchy
+Sistema-Academia,model,ContentEmail,Deficient Encapsulation
 Sistema-Academia,model,DAO,Unutilized Abstraction
 Sistema-Academia,model,Fornecedor,Insufficient Modularization
 Sistema-Academia,model,FornecedorDAO,Unutilized Abstraction

@@ -1,6 +1,5 @@
 Project Name,Package Name,Type Name,Method Name,Code Smell
 Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
-Sistema-Academia,control,Email,comunicarAniversariantes,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Long Statement
 Sistema-Academia,control,Email,comunicarDevedores,Magic Number
@@ -389,3 +388,4 @@ Sistema-Academia,model,VendaDAO,atualizar,Magic Number
 Sistema-Academia,model,VendaDAO,atualizar,Magic Number
 Sistema-Academia,model,VendaDAO,remover,Empty catch clause
 Sistema-Academia,model,VendaDAO,getUltimoId,Empty catch clause
+Sistema-Academia,utils,utilitis,GetContent,Long Statement

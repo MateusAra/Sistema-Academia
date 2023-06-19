@@ -38,14 +38,17 @@ public class Email {
         List<Cliente> listaClientes = cliente.retrieveGeneric("SELECT * FROM consultarClientes WHERE dt_nasc like '%-" + contentEmail.data + "'");
         
         String[] to = new String[listaClientes.size()];        
-        for (int i=0; i<listaClientes.size(); i++) {
+        for (int i = 0; i < listaClientes.size(); i++) 
+        {
             to[i] = listaClientes.get(i).getEmail();
         }
         
-        if (to.length > 0) {
+        if (to.length > 0) 
+        {
             enviarEmail(contentEmail.from, to, contentEmail.assunto, contentEmail.conteudo, session);
             System.out.println("Emails de aniversários enviados");
-        } else
+        } 
+        else
             System.out.println("Nenhum email de aniversário enviado");
     }
     
@@ -97,13 +100,24 @@ public class Email {
         for (String cliente : to) {
             try {
                 MimeMessage message = new MimeMessage(session);
-                try { message.setFrom(new InternetAddress(from, "Academia do Plínio"));
-                } catch (UnsupportedEncodingException ex) {message.setFrom(new InternetAddress(from));}
+
+                try { 
+                    message.setFrom(new InternetAddress(from, "Academia do Plínio"));
+                } 
+                catch (UnsupportedEncodingException ex) 
+                {
+                    message.setFrom(new InternetAddress(from));
+                }
+
                 message.addRecipient(Message.RecipientType.TO, new InternetAddress(cliente));
                 message.setSubject(assunto);
                 message.setText(conteudo);
                 Transport.send(message);
-            }catch(MessagingException mex) {
+
+            }
+            catch(MessagingException mex) 
+            {
+
             }
         }
     }
