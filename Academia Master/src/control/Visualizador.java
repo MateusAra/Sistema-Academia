@@ -9,34 +9,43 @@ public class Visualizador {
         return string;
     }
     
+    public static final int PRIMEIRO_DIGITO_1 = 0;
+    public static final int PRIMEIRO_DIGITO_2 = 1;
+    public static final int SEGUNDO_DIGITO_1 = 2;
+    public static final int SEGUNDO_DIGITO_2 = 3;
+    public static final int SEGUNDO_DIGITO_3 = 4;
+    public static final int TERCEIRO_DIGITO_1 = 5;
+    public static final int TERCEIRO_DIGITO_2 = 6;
+    public static final int TERCEIRO_DIGITO_3 = 7;
+    public static final int DIGITO_VERIFICADOR = 8;
+
     public static String visualizarRg(String rg) {
         String rgPadrao = "";
         
-        if(rg.length() == 9){
-            rgPadrao += rg.charAt(0);
-            rgPadrao += rg.charAt(1);
+        if (rg.length() == 9) {
+            rgPadrao += rg.charAt(PRIMEIRO_DIGITO_1);
+            rgPadrao += rg.charAt(PRIMEIRO_DIGITO_2);
             rgPadrao += ".";
-            rgPadrao += rg.charAt(2);
-            rgPadrao += rg.charAt(3);
-            rgPadrao += rg.charAt(4);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_1);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_2);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_3);
             rgPadrao += ".";
-            rgPadrao += rg.charAt(5);
-            rgPadrao += rg.charAt(6);
-            rgPadrao += rg.charAt(7);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_1);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_2);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_3);
             rgPadrao += "-";
-            rgPadrao += rg.charAt(8);
-        }
-        else {
-            rgPadrao += rg.charAt(0);
-            rgPadrao += rg.charAt(1);
+            rgPadrao += rg.charAt(DIGITO_VERIFICADOR);
+        } else {
+            rgPadrao += rg.charAt(PRIMEIRO_DIGITO_1);
+            rgPadrao += rg.charAt(PRIMEIRO_DIGITO_2);
             rgPadrao += ".";
-            rgPadrao += rg.charAt(2);
-            rgPadrao += rg.charAt(3);
-            rgPadrao += rg.charAt(4);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_1);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_2);
+            rgPadrao += rg.charAt(SEGUNDO_DIGITO_3);
             rgPadrao += ".";
-            rgPadrao += rg.charAt(5);
-            rgPadrao += rg.charAt(6);
-            rgPadrao += rg.charAt(7);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_1);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_2);
+            rgPadrao += rg.charAt(TERCEIRO_DIGITO_3);
         }
         return rgPadrao;
     }
