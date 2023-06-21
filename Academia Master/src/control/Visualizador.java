@@ -78,24 +78,24 @@ public class Visualizador {
     public static String visualizarCnpj(String cnpj) {
         String cnpjPadrao = "";
 
-        cnpjPadrao += cnpj.charAt(0);
-        cnpjPadrao += cnpj.charAt(1);
+        cnpjPadrao += cnpj.charAt(INDEX_0);
+        cnpjPadrao += cnpj.charAt(INDEX_1);
         cnpjPadrao += ".";
-        cnpjPadrao += cnpj.charAt(2);
-        cnpjPadrao += cnpj.charAt(3);
-        cnpjPadrao += cnpj.charAt(4);
+        cnpjPadrao += cnpj.charAt(INDEX_2);
+        cnpjPadrao += cnpj.charAt(INDEX_3);
+        cnpjPadrao += cnpj.charAt(INDEX_4);
         cnpjPadrao += ".";
-        cnpjPadrao += cnpj.charAt(5);
-        cnpjPadrao += cnpj.charAt(6);
-        cnpjPadrao += cnpj.charAt(7);
+        cnpjPadrao += cnpj.charAt(INDEX_5);
+        cnpjPadrao += cnpj.charAt(INDEX_6);
+        cnpjPadrao += cnpj.charAt(INDEX_7);
         cnpjPadrao += "/";
-        cnpjPadrao += cnpj.charAt(8);
-        cnpjPadrao += cnpj.charAt(9);
-        cnpjPadrao += cnpj.charAt(10);
-        cnpjPadrao += cnpj.charAt(11);
+        cnpjPadrao += cnpj.charAt(INDEX_8);
+        cnpjPadrao += cnpj.charAt(INDEX_9);
+        cnpjPadrao += cnpj.charAt(INDEX_10);
+        cnpjPadrao += cnpj.charAt(INDEX_11);
         cnpjPadrao += "-";
-        cnpjPadrao += cnpj.charAt(12);
-        cnpjPadrao += cnpj.charAt(13);
+        cnpjPadrao += cnpj.charAt(INDEX_12);
+        cnpjPadrao += cnpj.charAt(INDEX_13);
 
         return cnpjPadrao;
     }
