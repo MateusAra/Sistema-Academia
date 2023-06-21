@@ -32,7 +32,7 @@ Sistema-Academia,control,TelaRelatorioRecebimentoController,1,0,3,1,43,5,0,0,1.0
 Sistema-Academia,control,TelaRelatorioUltimoAcessoController,1,0,3,1,41,5,0,0,1.0,0,4
 Sistema-Academia,control,TelaRelatorioVendaController,1,0,3,1,37,4,0,0,1.0,0,4
 Sistema-Academia,control,Validador,2,0,30,22,350,59,0,0,0.0,12,2
-Sistema-Academia,control,Visualizador,9,9,15,15,196,18,0,0,1.0,11,0
+Sistema-Academia,control,Visualizador,14,14,15,15,201,18,0,0,0.9333333333333333,11,0
 Sistema-Academia,control,Catraca,4,0,5,4,79,9,0,0,0.0,0,1
 Sistema-Academia,model,CatracaDAO,2,0,3,2,59,7,0,1,0.6666666666666666,2,1
 Sistema-Academia,model,Cliente,14,0,29,29,110,29,0,1,0.27586206896551724,7,0
