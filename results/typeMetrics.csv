@@ -32,15 +32,14 @@ Sistema-Academia,control,TelaRelatorioRecebimentoController,1,0,3,1,43,5,0,0,1.0
 Sistema-Academia,control,TelaRelatorioUltimoAcessoController,1,0,3,1,41,5,0,0,1.0,0,4
 Sistema-Academia,control,TelaRelatorioVendaController,1,0,3,1,37,4,0,0,1.0,0,4
 Sistema-Academia,control,Validador,2,0,30,22,350,59,0,0,0.0,12,2
-Sistema-Academia,control,Visualizador,14,14,15,15,201,18,0,0,0.9333333333333333,11,0
+Sistema-Academia,control,Visualizador,14,14,15,15,201,18,0,0,0.8666666666666667,11,0
 Sistema-Academia,control,Catraca,4,0,5,4,79,9,0,0,0.0,0,1
 Sistema-Academia,model,CatracaDAO,2,0,3,2,59,7,0,1,0.6666666666666666,2,1
 Sistema-Academia,model,Cliente,14,0,29,29,110,29,0,1,0.27586206896551724,7,0
 Sistema-Academia,model,ClienteDAO,2,0,10,8,155,17,0,1,0.2,16,2
 Sistema-Academia,model,ContentEmail,4,4,2,2,14,2,0,0,1.0,2,0
-Sistema-Academia,model,DadosFornecedor,4,0,1,1,12,1,0,0,0.0,0,0
 Sistema-Academia,model,DAO,2,0,4,0,25,5,9,0,0.75,0,0
-Sistema-Academia,model,Fornecedor,15,0,2,2,33,2,0,0,0.0,3,0
+Sistema-Academia,model,Fornecedor,15,0,31,31,120,31,0,0,0.16129032258064516,3,0
 Sistema-Academia,model,FornecedorDAO,2,0,9,7,122,15,0,1,0.2222222222222222,4,3
 Sistema-Academia,model,Funcionario,5,0,11,11,43,11,1,1,0.2727272727272727,6,0
 Sistema-Academia,model,FuncionarioDAO,2,0,9,7,136,15,0,1,0.2222222222222222,6,3
