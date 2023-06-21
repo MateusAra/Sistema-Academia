@@ -51,7 +51,7 @@ Sistema-Academia,control,TelaAtualizarProdutoController,clickExcluir,23,3,1
 Sistema-Academia,control,TelaAtualizarProdutoController,clickAtualizar,24,3,1
 Sistema-Academia,control,TelaCadastroClienteController,initialize,35,2,2
 Sistema-Academia,control,TelaCadastroClienteController,clickCancelar,3,1,1
-Sistema-Academia,control,TelaCadastroClienteController,clickSalvar,61,3,1
+Sistema-Academia,control,TelaCadastroClienteController,clickSalvar,62,3,1
 Sistema-Academia,control,TelaCadastroClienteController,calcularDataVencimento,17,3,1
 Sistema-Academia,control,TelaCadastroClienteController,buscarIdPlano,12,3,1
 Sistema-Academia,control,TelaCadastroController,clickHome,3,1,1
@@ -253,7 +253,7 @@ Sistema-Academia,model,Cliente,setUltimoAcessoVisual,3,1,1
 Sistema-Academia,model,ClienteDAO,ClienteDAO,2,1,0
 Sistema-Academia,model,ClienteDAO,getInstance,22,3,0
 Sistema-Academia,model,ClienteDAO,buildObject,9,1,1
-Sistema-Academia,model,ClienteDAO,cadastrar,33,2,19
+Sistema-Academia,model,ClienteDAO,cadastrar,33,2,1
 Sistema-Academia,model,ClienteDAO,retrieveGeneric,17,2,1
 Sistema-Academia,model,ClienteDAO,retrieveAll,3,1,0
 Sistema-Academia,model,ClienteDAO,retrieveLike,3,1,1

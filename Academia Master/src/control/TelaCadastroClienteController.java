@@ -18,6 +18,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
+import model.Cliente;
 import model.ClienteDAO;
 import model.Plano;
 import model.PlanoDAO;
@@ -206,10 +207,30 @@ public class TelaCadastroClienteController implements Initializable {
             System.out.println("ID do Plano do Cliente: " + idPlanoCliente);
             System.out.println("Data de Vencimento do Cliente: " + dtVencimentoCliente);
             
-            if (ClienteDAO.getInstance().cadastrar(rgCliente, cpfCliente, nomeCliente, sexoCliente,
-                dtNascimentoCliente, telefoneCliente, celularCliente, emailCliente, enderecoCliente, cepCliente, estadoCliente,
-                cidadeCliente, bairroCliente, cartaoCliente, idPlanoCliente, alturaCliente, pesoCliente,
-                imcCliente, taxaGorduraCliente)) {
+            Cliente cliente = new Cliente( 
+                                        rgCliente, 
+                                        cpfCliente, 
+                                        nomeCliente, 
+                                        sexoCliente, 
+                                        dtNascimentoCliente, 
+                                        telefoneCliente, 
+                                        celularCliente, 
+                                        emailCliente, 
+                                        enderecoCliente, 
+                                        cepCliente, 
+                                        estadoCliente, 
+                                        cidadeCliente, 
+                                        bairroCliente, 
+                                        cartaoCliente, 
+                                        idPlanoCliente, 
+                                        dtVencimentoCliente, 
+                                        alturaCliente, 
+                                        pesoCliente, 
+                                        imcCliente, 
+                                        dtVencimentoCliente);
+
+
+            if (ClienteDAO.getInstance().cadastrar(cliente)) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Cadastro");
                 alert.setHeaderText("Cadastro de Cliente");

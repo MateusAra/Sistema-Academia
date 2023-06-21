@@ -9,7 +9,7 @@ Sistema-Academia,control,TelaAtualizarFornecedorController,21,0,5,2,126,11,0,0,0
 Sistema-Academia,control,TelaAtualizarFuncionarioController,33,0,5,2,151,11,0,0,0.4,1,6
 Sistema-Academia,control,TelaAtualizarPlanoController,9,0,5,2,77,11,0,0,0.4,1,5
 Sistema-Academia,control,TelaAtualizarProdutoController,9,0,5,2,77,11,0,0,0.4,1,5
-Sistema-Academia,control,TelaCadastroClienteController,35,0,5,1,165,12,0,0,0.4,1,7
+Sistema-Academia,control,TelaCadastroClienteController,35,0,5,1,166,12,0,0,0.4,1,8
 Sistema-Academia,control,TelaCadastroController,1,0,12,1,40,12,0,0,1.0,0,1
 Sistema-Academia,control,TelaCadastroFornecedorController,20,0,3,1,93,5,0,0,0.6666666666666666,0,4
 Sistema-Academia,control,TelaCadastroFuncionarioController,32,0,3,1,120,5,0,0,0.6666666666666666,0,4
@@ -35,7 +35,7 @@ Sistema-Academia,control,Validador,2,0,30,22,350,59,0,0,0.0,12,2
 Sistema-Academia,control,Visualizador,14,14,15,15,201,18,0,0,0.8666666666666667,11,0
 Sistema-Academia,control,Catraca,4,0,5,4,79,9,0,0,0.0,0,1
 Sistema-Academia,model,CatracaDAO,2,0,3,2,59,7,0,1,0.6666666666666666,2,1
-Sistema-Academia,model,Cliente,14,0,29,29,110,29,0,1,0.27586206896551724,7,0
+Sistema-Academia,model,Cliente,14,0,29,29,110,29,0,1,0.27586206896551724,8,0
 Sistema-Academia,model,ClienteDAO,2,0,10,8,155,17,0,1,0.2,16,2
 Sistema-Academia,model,ContentEmail,4,4,2,2,14,2,0,0,1.0,2,0
 Sistema-Academia,model,DAO,2,0,4,0,25,5,9,0,0.75,0,0

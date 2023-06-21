@@ -127,7 +127,6 @@ Sistema-Academia,model,Cliente,setPorcentagemGorduraCorporalVisual,Long Identifi
 Sistema-Academia,model,ClienteDAO,buildObject,Empty catch clause
 Sistema-Academia,model,ClienteDAO,buildObject,Long Statement
 Sistema-Academia,model,ClienteDAO,cadastrar,Empty catch clause
-Sistema-Academia,model,ClienteDAO,cadastrar,Long Parameter List
 Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
 Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number
 Sistema-Academia,model,ClienteDAO,cadastrar,Magic Number

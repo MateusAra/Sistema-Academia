@@ -56,31 +56,29 @@ public class ClienteDAO extends DAO {
     
     //CRUD
     //CADASTRO
-    public boolean cadastrar(String rg, String cpf, String nome, String sexo, String dtNasc, String telefone, String celular,
-           String email, String endereco, String cep, String estado, String cidade,String bairro, String cartao, int plano, 
-           float altura, float peso, float imc, int porcentagemGorduraCorporal) {
+    public boolean cadastrar(Cliente cliente) {
         PreparedStatement stmt;        
         try {
             stmt = myCONN.prepareStatement("exec cadastrarClientes ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?");
-            stmt.setString(1, rg);
-            stmt.setString(2, cpf);
-            stmt.setString(3, nome);
-            stmt.setString(4, sexo);
-            stmt.setString(5, dtNasc);
-            stmt.setString(6, telefone);
-            stmt.setString(7, celular);
-            stmt.setString(8, email);
-            stmt.setString(9, endereco);
-            stmt.setString(10, cep);
-            stmt.setString(11, estado);
-            stmt.setString(12, cidade);
-            stmt.setString(13, bairro);
-            stmt.setString(14, cartao);
-            stmt.setInt(15, plano);
-            stmt.setFloat(16, altura);
-            stmt.setFloat(17, peso);
-            stmt.setFloat(18, imc);
-            stmt.setInt(19, porcentagemGorduraCorporal);
+            stmt.setString(1, cliente.getRg());
+            stmt.setString(2, cliente.getCpf());
+            stmt.setString(3, cliente.getNome());
+            stmt.setString(4, cliente.getSexo());
+            stmt.setString(5, cliente.getDtNasc());
+            stmt.setString(6, cliente.getTelefone());
+            stmt.setString(7, cliente.getCelular());
+            stmt.setString(8, cliente.getEmail());
+            stmt.setString(9, cliente.getEndereco());
+            stmt.setString(10, cliente.getCep());
+            stmt.setString(11, cliente.getEstado());
+            stmt.setString(12, cliente.getCidade());
+            stmt.setString(13, cliente.getBairro());
+            stmt.setString(14, cliente.getCartao());
+            stmt.setString(15, cliente.getCartao());
+            stmt.setFloat(16, cliente.getAltura());
+            stmt.setFloat(17, cliente.getPeso());
+            stmt.setFloat(18, cliente.getImc());
+            stmt.setInt(19, cliente.getPorcentagemGorduraCorporal());
             int rowCount = this.executarQuery(stmt);
             stmt.close();
             if(rowCount == 1) {
