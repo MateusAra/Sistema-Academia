@@ -1,8 +1,9 @@
 Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT
 Sistema-Academia,control,Email,1,0,6,3,81,11,0,0,0.3333333333333333,2,4
+Sistema-Academia,control,MainMethods,0,0,29,29,325,29,0,0,-1.0,1,1
 Sistema-Academia,control,Padronizador,0,0,9,9,49,9,0,0,-1.0,12,0
 Sistema-Academia,control,PreCarregamento,2,0,3,3,22,4,0,0,0.0,1,0
-Sistema-Academia,control,SistemaAcademia,2,0,4,4,344,32,0,0,0.75,28,3
+Sistema-Academia,control,SistemaAcademia,2,0,4,4,117,32,0,0,0.75,29,4
 Sistema-Academia,control,StartController,1,0,1,1,5,1,0,0,0.0,0,0
 Sistema-Academia,control,TelaAtualizarClienteController,36,0,7,2,195,18,0,0,0.2857142857142857,2,9
 Sistema-Academia,control,TelaAtualizarFornecedorController,21,0,5,2,126,11,0,0,0.4,1,5

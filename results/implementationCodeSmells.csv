@@ -6,6 +6,8 @@ Sistema-Academia,control,Email,comunicarDevedores,Magic Number
 Sistema-Academia,control,Email,comunicarDevedores,Magic Number
 Sistema-Academia,control,Email,enviarEmail,Empty catch clause
 Sistema-Academia,control,Email,enviarEmail,Long Parameter List
+Sistema-Academia,control,MainMethods,InitPage,Magic Number
+Sistema-Academia,control,MainMethods,InitPage,Magic Number
 Sistema-Academia,control,Padronizador,padronizarData,Magic Number
 Sistema-Academia,control,Padronizador,padronizarData,Magic Number
 Sistema-Academia,control,Padronizador,padronizarData,Magic Number
@@ -17,9 +19,6 @@ Sistema-Academia,control,SistemaAcademia,start,Magic Number
 Sistema-Academia,control,SistemaAcademia,init,Empty catch clause
 Sistema-Academia,control,SistemaAcademia,init,Magic Number
 Sistema-Academia,control,SistemaAcademia,changeScreen,Complex Method
-Sistema-Academia,control,SistemaAcademia,changeScreen,Long Method
-Sistema-Academia,control,SistemaAcademia,changeScreen,Magic Number
-Sistema-Academia,control,SistemaAcademia,changeScreen,Magic Number
 Sistema-Academia,control,TelaAtualizarClienteController,initialize,Long Statement
 Sistema-Academia,control,TelaAtualizarClienteController,clickAtualizar,Long Statement
 Sistema-Academia,control,TelaAtualizarClienteController,clickAtualizar,Long Statement

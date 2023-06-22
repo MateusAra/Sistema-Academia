@@ -1,4 +1,7 @@
 Project Name,Package Name,Type Name,Code Smell
+Sistema-Academia,control,MainMethods,Cyclic-Dependent Modularization
+Sistema-Academia,control,MainMethods,Insufficient Modularization
+Sistema-Academia,control,SistemaAcademia,Cyclic-Dependent Modularization
 Sistema-Academia,control,StartController,Unutilized Abstraction
 Sistema-Academia,control,TelaCadastroController,Unutilized Abstraction
 Sistema-Academia,control,TelaCadastroFornecedorController,Unutilized Abstraction
