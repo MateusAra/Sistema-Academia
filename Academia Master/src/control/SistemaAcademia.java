@@ -1,6 +1,8 @@
 package control;
 
 import com.sun.javafx.application.LauncherImpl;
+import com.sun.tools.javac.Main;
+
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -56,45 +58,15 @@ public class SistemaAcademia extends Application {
     public static void changeScreen(String fxml) {
         switch(fxml) {
             case "InicializarSistema" :           
-                FXMLLoader telaInicial = new FXMLLoader();
-                telaInicial.setLocation(SistemaAcademia.class.getResource("/view/TelaPrincipal.fxml"));
-        
-                try {
-                    mainLayout = telaInicial.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-
-                stage.setMaxWidth(3840);
-                stage.setMaxHeight(2160);
-                stage.getScene().setRoot(mainLayout);
-                stage.setMaximized(true);
+                MainMethods.InitPage(mainLayout, stage);
                 break;
                 
             case "TelaPrincipal" :           
-                FXMLLoader telaPrincipal = new FXMLLoader();
-                telaPrincipal.setLocation(SistemaAcademia.class.getResource("/view/TelaPrincipal.fxml"));
-        
-                try {
-                    mainLayout = telaPrincipal.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.MainPage(mainLayout, stage);
                 break;
             
             case "TelaCadastro" :
-                FXMLLoader telaCadastro = new FXMLLoader();
-                telaCadastro.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastro.fxml"));
-        
-                try {
-                    mainLayout = telaCadastro.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-        
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPage(mainLayout, stage);
                 break;
                 
             case "TelaConsulta" :
@@ -397,33 +369,15 @@ public class SistemaAcademia extends Application {
                 break;
             
             case "TelaRelatorioVenda" :
-                FXMLLoader telaRelatorioVenda = new FXMLLoader();
-                telaRelatorioVenda.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorioVenda.fxml"));
-        
-                try {
-                    mainLayout = telaRelatorioVenda.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.SaleReport();
                 break;
                 
             case "TelaFormaPagamento" :
-                FXMLLoader telaFormaPagamento = new FXMLLoader();
-                telaFormaPagamento.setLocation(SistemaAcademia.class.getResource("/view/TelaFormaPagamento.fxml"));
-        
-                try {
-                    mainLayout = telaFormaPagamento.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.PaymentPage();
                 break;
         }
     }
-        
+      
     public static void main(String[] args) {
         /*Thread threadCatraca = new Thread() {     
             @Override
