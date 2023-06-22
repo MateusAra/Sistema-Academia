@@ -278,94 +278,31 @@ public class SistemaAcademia extends Application {
                 break;
                 
             case "TelaAtualizarFuncionario" :
-                FXMLLoader telaAtualizarFuncionario = new FXMLLoader();
-                telaAtualizarFuncionario.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarFuncionario.fxml"));
-        
-                try {
-                    mainLayout = telaAtualizarFuncionario.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaAtualizarFuncionario();
                 break;
                 
             case "TelaAtualizarFornecedor" :
-                FXMLLoader telaAtualizarFornecedor = new FXMLLoader();
-                telaAtualizarFornecedor.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarFornecedor.fxml"));
-        
-                try {
-                    mainLayout = telaAtualizarFornecedor.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaAtualizarFornecedor();
                 break;
                 
             case "TelaAtualizarProduto" :
-                FXMLLoader telaAtualizarProduto = new FXMLLoader();
-                telaAtualizarProduto.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarProduto.fxml"));
-        
-                try {
-                    mainLayout = telaAtualizarProduto.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaAtualizarProduto();
                 break;
                 
             case "TelaAtualizarPlano" :
-                FXMLLoader telaAtualizarPlano = new FXMLLoader();
-                telaAtualizarPlano.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarPlano.fxml"));
-        
-                try {
-                    mainLayout = telaAtualizarPlano.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaAtualizarPlano();
                 break;
                 
             case "TelaRelatorio" :
-                FXMLLoader telaRelatorio = new FXMLLoader();
-                telaRelatorio.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorio.fxml"));
-        
-                try {
-                    mainLayout = telaRelatorio.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaRelatorio();
                 break;
                 
             case "TelaRelatorioUltimoAcesso" :
-                FXMLLoader telaRelatorioUltimoAcesso = new FXMLLoader();
-                telaRelatorioUltimoAcesso.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorioUltimoAcesso.fxml"));
-        
-                try {
-                    mainLayout = telaRelatorioUltimoAcesso.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaRelatorioUltimoAcesso();
                 break;
             
             case "TelaRelatorioRecebimento" :
-                FXMLLoader telaRelatorioRecebimento = new FXMLLoader();
-                telaRelatorioRecebimento.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorioRecebimento.fxml"));
-        
-                try {
-                    mainLayout = telaRelatorioRecebimento.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.TelaRelatorioRecebimento();
                 break;
             
             case "TelaRelatorioVenda" :

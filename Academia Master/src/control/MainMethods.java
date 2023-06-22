@@ -74,4 +74,97 @@ public class MainMethods {
          
         stage.getScene().setRoot(mainLayout);
     }
+
+    public static void TelaRelatorioRecebimento(BorderPane mainLayout, Stage stage) {
+        FXMLLoader telaRelatorioRecebimento = new FXMLLoader();
+        telaRelatorioRecebimento.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorioRecebimento.fxml"));
+
+        try {
+            mainLayout = telaRelatorioRecebimento.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        stage.getScene().setRoot(mainLayout);
+    }
+
+    public static void TelaRelatorioUltimoAcesso(BorderPane mainLayout, Stage stage){
+        FXMLLoader telaAtualizarFuncionario = new FXMLLoader();
+        telaAtualizarFuncionario.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarFuncionario.fxml"));
+
+        try {
+            mainLayout = telaAtualizarFuncionario.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        stage.getScene().setRoot(mainLayout);
+        break;
+    }
+
+    public static void TelaAtualizarFornecedor(BorderPane mainLayout, Stage stage){
+        FXMLLoader telaAtualizarFornecedor = new FXMLLoader();
+        telaAtualizarFornecedor.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarFornecedor.fxml"));
+
+        try {
+            mainLayout = telaAtualizarFornecedor.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        stage.getScene().setRoot(mainLayout);
+    }
+
+    public static void TelaAtualizarProduto(){
+        FXMLLoader telaAtualizarProduto = new FXMLLoader();
+        telaAtualizarProduto.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarProduto.fxml"));
+        try {
+            mainLayout = telaAtualizarProduto.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        stage.getScene().setRoot(mainLayout);
+    }
+
+    public static void TelaAtualizarPlano(BorderPane mainLayout, Stage stage){
+        FXMLLoader telaAtualizarPlano = new FXMLLoader();
+        telaAtualizarPlano.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarPlano.fxml"));
+
+        try {
+            mainLayout = telaAtualizarPlano.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+        stage.getScene().setRoot(mainLayout);
+    }
+    
+    public static void TelaRelatorioUltimoAcesso(BorderPane mainLayout, Stage stage){
+        FXMLLoader telaRelatorioUltimoAcesso = new FXMLLoader();
+                telaRelatorioUltimoAcesso.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorioUltimoAcesso.fxml"));
+        
+                try {
+                    mainLayout = telaRelatorioUltimoAcesso.load();
+                } catch (IOException ex) {
+                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            
+                stage.getScene().setRoot(mainLayout);
+    }
+
+    public static void TelaRelatorio(BorderPane mainLayout, Stage stage){
+        FXMLLoader telaRelatorio = new FXMLLoader();
+        telaRelatorio.setLocation(SistemaAcademia.class.getResource("/view/TelaRelatorio.fxml"));
+
+        try {
+            mainLayout = telaRelatorio.load();
+        } catch (IOException ex) {
+            Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        stage.getScene().setRoot(mainLayout);
+    }
+    
+
 }
