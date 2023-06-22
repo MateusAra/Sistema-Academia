@@ -70,247 +70,103 @@ public class SistemaAcademia extends Application {
                 break;
                 
             case "TelaConsulta" :
-                FXMLLoader telaConsulta = new FXMLLoader();
-                telaConsulta.setLocation(SistemaAcademia.class.getResource("/view/TelaConsulta.fxml"));
-        
-                try {
-                    mainLayout = telaConsulta.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-        
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPage(mainLayout, stage);
                 break;
               
             case "TelaPagamento" :
-                FXMLLoader telaPagamento = new FXMLLoader();
-                telaPagamento.setLocation(SistemaAcademia.class.getResource("/view/TelaPagamento.fxml"));
-        
-                try {
-                    mainLayout = telaPagamento.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-         
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.PaymentPage(mainLayout, stage);
                 break;
                 
             case "TelaCadastroCliente" :
-                FXMLLoader telaCadastroCliente = new FXMLLoader();
-                telaCadastroCliente.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroCliente.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroCliente.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPageClient(mainLayout, stage);
                 break;
                 
             case "TelaCadastroFuncionario" :
-                FXMLLoader telaCadastroFuncionario = new FXMLLoader();
-                telaCadastroFuncionario.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroFuncionario.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroFuncionario.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPageEmployee(mainLayout, stage);
                 break;
                 
             case "TelaCadastroFornecedor" :
-                FXMLLoader telaCadastroFornecedor = new FXMLLoader();
-                telaCadastroFornecedor.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroFornecedor.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroFornecedor.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPageEmployee(mainLayout, stage);
                 break;
                 
             case "TelaCadastroProduto" :
-                FXMLLoader telaCadastroProduto = new FXMLLoader();
-                telaCadastroProduto.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroProduto.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroProduto.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPageProduct(mainLayout, stage);
                 break;
                 
             case "TelaCadastroVenda" :
-                FXMLLoader telaCadastroVenda = new FXMLLoader();
-                telaCadastroVenda.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroVenda.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroVenda.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPageSale(mainLayout, stage);
                 break;
                 
             case "TelaPagamentoCompra" :
-                FXMLLoader telaPagamentoCompra = new FXMLLoader();
-                telaPagamentoCompra.setLocation(SistemaAcademia.class.getResource("/view/TelaPagamentoCompra.fxml"));
-        
-                try {
-                    mainLayout = telaPagamentoCompra.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.Purchase(mainLayout, stage);
                 break;
                 
             case "TelaCadastroPlano" :
-                FXMLLoader telaCadastroPlano = new FXMLLoader();
-                telaCadastroPlano.setLocation(SistemaAcademia.class.getResource("/view/TelaCadastroPlano.fxml"));
-        
-                try {
-                    mainLayout = telaCadastroPlano.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.RegisterPagePlan(mainLayout, stage);
                 break;
                 
             case "TelaConsultaCliente" :
-                FXMLLoader telaConsultaCliente = new FXMLLoader();
-                telaConsultaCliente.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaCliente.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaCliente.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPageClient(mainLayout, stage);
                 break;
                 
             case "TelaConsultaFuncionario" :
-                FXMLLoader telaConsultaFuncionario = new FXMLLoader();
-                telaConsultaFuncionario.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaFuncionario.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaFuncionario.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPageEmployee(mainLayout, stage);
                 break;
                 
             case "TelaConsultaFornecedor" :
-                FXMLLoader telaConsultaFornecedor = new FXMLLoader();
-                telaConsultaFornecedor.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaFornecedor.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaFornecedor.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPageSupplier(mainLayout, stage);
                 break;
                 
             case "TelaConsultaProduto" :
-                FXMLLoader telaConsultaProduto = new FXMLLoader();
-                telaConsultaProduto.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaProduto.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaProduto.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPageProduct(mainLayout, stage);
                 break;
             
             case "TelaConsultaPlano" :
-                FXMLLoader telaConsultaPlano = new FXMLLoader();
-                telaConsultaPlano.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaPlano.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaPlano.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPagePlan(mainLayout, stage);
                 break;
             
             case "TelaConsultaVenda" :
-                FXMLLoader telaConsultaVenda = new FXMLLoader();
-                telaConsultaVenda.setLocation(SistemaAcademia.class.getResource("/view/TelaConsultaVenda.fxml"));
-        
-                try {
-                    mainLayout = telaConsultaVenda.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.ConsultPageSale(mainLayout, stage);
                 break;
                 
             case "TelaAtualizarCliente" :
-                FXMLLoader telaAtualizarCliente = new FXMLLoader();
-                telaAtualizarCliente.setLocation(SistemaAcademia.class.getResource("/view/TelaAtualizarCliente.fxml"));
-        
-                try {
-                    mainLayout = telaAtualizarCliente.load();
-                } catch (IOException ex) {
-                    Logger.getLogger(SistemaAcademia.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            
-                stage.getScene().setRoot(mainLayout);
+                MainMethods.UpdateClientPage(mainLayout, stage);
                 break;
                 
             case "TelaAtualizarFuncionario" :
-                MainMethods.TelaAtualizarFuncionario();
+                MainMethods.TelaAtualizarFuncionario(mainLayout, stage);
                 break;
                 
             case "TelaAtualizarFornecedor" :
-                MainMethods.TelaAtualizarFornecedor();
+                MainMethods.TelaAtualizarFornecedor(mainLayout, stage);
                 break;
                 
             case "TelaAtualizarProduto" :
-                MainMethods.TelaAtualizarProduto();
+                MainMethods.TelaAtualizarProduto(mainLayout, stage);
                 break;
                 
             case "TelaAtualizarPlano" :
-                MainMethods.TelaAtualizarPlano();
+                MainMethods.TelaAtualizarPlano(mainLayout, stage);
                 break;
                 
             case "TelaRelatorio" :
-                MainMethods.TelaRelatorio();
+                MainMethods.TelaRelatorio(mainLayout, stage);
                 break;
                 
             case "TelaRelatorioUltimoAcesso" :
-                MainMethods.TelaRelatorioUltimoAcesso();
+                MainMethods.TelaRelatorioUltimoAcesso(mainLayout, stage);
                 break;
             
             case "TelaRelatorioRecebimento" :
-                MainMethods.TelaRelatorioRecebimento();
+                MainMethods.TelaRelatorioRecebimento(mainLayout, stage);
                 break;
             
             case "TelaRelatorioVenda" :
-                MainMethods.SaleReport();
+                MainMethods.SaleReport(mainLayout, stage);
                 break;
                 
             case "TelaFormaPagamento" :
-                MainMethods.PaymentPage();
+                MainMethods.PaymentPage(mainLayout, stage);
                 break;
         }
     }
